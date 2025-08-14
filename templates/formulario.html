@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html">Home</a>
+        <a href="/templates/galeria.html">Galeria</a>
+        <a href="/templates/tabla.html">Tabla</a>
+        <a href="/templates/listas.html">Listas</a>
+        <a href="/templates/formulario.html">Formulario</a>
+        <a href="https://www.google.com.ar/index.html" target="_blank">Google</a>
+    </header>
+    <main>
+        <section>
+            <h1>Formulario</h1>
+        </section>
+        <section>
+                <form action="https://formspree.io/f/xrblynvd" method="POST" target="_blank">
+                    <label for="firstname">Nombre: </label>
+                    <input size="30" type="text" name="firstname" id="firstname">
+                    
+                    <label for="lastname">Apellido: </label>
+                    <input size="30" type="text" name="lastname" id="lastname">
+
+                    <label for="fc">Ingrese su año de nacimiento: </label>
+                    <input type="date" name="fc">
+
+                    <label for="edad">Ingrese su edad: </label>
+                    <input type="number" name="edad">
+
+                    <select name="genderbox" id="genderbox">
+                        <option value="1">Femenale</option>
+                        <option value="2">Male</option>
+                        <option value="3">No Binary</option>
+                        <option value="4">Other</option>
+                    </select>
+
+                    <div>
+                        <label for="area">Seleccione especialidad</label>
+                        <input type="radio" name="especialidad" value="1">App web
+                        <input type="radio" name="especialidad" value="2">Analisis de datos
+                        <input type="radio" name="especialidad" value="3">Desarrollo de juegos
+                    </div>
+
+                    <div>
+                        <label for="lenguaje">Seleccione un lenguaje: </label>
+                        <input type="checkbox" name="lenguaje" value="1">HTML
+                        <input type="checkbox" name="lenguaje" value="2">CSS
+                        <input type="checkbox" name="lenguaje" value="3">JavaScript
+                    </div>
+                    
+                    <div>
+                        <label for="navegador">Seleccione un navegador: </label>
+                        <input type="checkbox" name="navegador" value="1">Chrome
+                        <input type="checkbox" name="navegador" value="2">Opera
+                        <input type="checkbox" name="navegador" value="3">Safari
+                        <input type="checkbox" name="navegador" value="4">Firefox
+                        <input type="checkbox" name="navegador" value="5">Edge
+                    </div>
+                    
+                    <div>
+                        <label for="numberTel">Ingrese un numero de telefono: </label>
+                        <input size="30" type="tel" name="numberTel" id="numberTel">
+                    </div>
+
+                    <div>
+                        <label for="fotoperfil">Suba una imagen suya: </label>
+                        <input type="file" name="fotoperfil" >
+                    </div>
+                    <label for="comentario">Comentarios:</label>
+                    <textarea name="comentario">Deje un comentario...</textarea>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </form>
+        </section>
+    </main>
+    <footer>
+        <p>Página hecha por lucia9bide en GitHub</p>
+    </footer>
+</body>
+</html>
