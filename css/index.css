@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.nunito-sans-munitoSans{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
 :root{
     --background-color: #fffbdf;
     --secondary-color: #8CBEB2;
@@ -31,10 +43,28 @@ header{
     margin-right: 20px;
 }
 
+.vinculoHeader{
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.2s;
+    margin: 0 10px 0 10px;
+}
+.vinculoHeader:hover{
+    color: var(--background-color);
+}
+
 .titulo{
     color: var(--tittles-mark-color);
 }
 
 #parrafo{
     text-align: center;
+}
+
+footer{
+    height: 60px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
