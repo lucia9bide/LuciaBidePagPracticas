@@ -1,0 +1,40 @@
+:root{
+    --background-color: #fffbdf;
+    --secondary-color: #8CBEB2;
+    --shadow-details-color: #F3B562;
+    --shadow-details-2-color: #F2EBBF;
+    --tittles-mark-color: #F06060;
+    --text-color: #5C4B51;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+header{
+    background-color: var(--secondary-color);
+    min-height: 60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.titulo{
+    color: var(--tittles-mark-color);
+}
+
+#parrafo{
+    text-align: center;
+}
