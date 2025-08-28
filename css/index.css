@@ -58,7 +58,7 @@ header{
     color: rgba(0, 0, 0, 0);
     background-image: url("https://i.pinimg.com/736x/da/83/a3/da83a33fdd57e4c8dac3fe2e09f0de78.jpg");
     background-repeat: no-repeat;
-    background-position: center;  /* posicionar al centro */
+    background-position: center;
     background-size: cover;
     background-clip: text;
     font-family: var(--workSans-font);
